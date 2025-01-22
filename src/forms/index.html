@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="font-Inter">
+    <section class="w-full h-max py-10 flex items-center justify-center font-Inter">
+        <div class="flex flex-col space-y-10 w-full font-medium px-56">
+                <textarea name="" id="" placeholder="Long Answer" class="border rounded-md p-3 w-full "></textarea>
+                 <input type="text" name="" id="" placeholder="Short Answer" class="border rounded-md p-3 w-full "></input>
+            <div class="Empty-State w-full h-max flex flex-col items-center p-24 justify-center border space-y-2 rounded-md">
+                <img src="/src/assets/icon/Folders.svg" alt="">
+                <div class="text-wraper flex flex-col items-center justify-center space-y-2 pb-5">
+                    <h1 class="text-primary font-bold text-2xl">Welcome to Kelasna</h1>
+                    <p class="text-sm text-slate-500">Let's Take the first step towards new knowledge</p>
+                </div>
+                <button class="flex p-2 px-5 shadow-sm text-white bg-primary rounded-md">Create Course Now</button>
+            </div>
+            <div class="form-check w-full h-max flex flex-col items-center p-24 justify-center border space-y-2 rounded-md">
+                <form action="" class="flex flex-col justify-center items-start space-y-4">
+                    <div class="flex space-x-3 items-center">
+                        <input type="radio">
+                        <label for="" class="text-sm text-slate-700">Restart your Mac and check if any software updates are pending, then try reopening Figma.</label>
+                    </div>
+                    <div class="flex space-x-3 items-center">
+                        <input type="radio">
+                        <label for="" class="text-sm text-slate-700">Completely uninstall Figma, then reinstall it from a third-party website</label>
+                    </div>
+                    <div class="flex space-x-3 items-center">
+                        <input type="radio">
+                        <label for="" class="text-sm text-slate-700">Switch to Windows operating system, as Figma doesn’t work properly on macOS.</label>
+                    </div>
+                    <div class="flex space-x-3 items-center">
+                        <input type="radio">
+                        <label for="" class="text-sm text-slate-700">Delete all the files in the 'Applications' folder to free up space and attempt the installation again.</label>
+                    </div>
+               </form>
+
+               <h1>And</h1>
+
+               <form action="" class="flex flex-col justify-center items-start space-y-4">
+                <div class="flex space-x-3 items-center">
+                    <input type="checkbox" >
+                    <label for="" class="text-sm text-slate-700">Restart your Mac and check if any software updates are pending, then try reopening Figma.</label>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <input type="checkbox">
+                    <label for="" class="text-sm text-slate-700">Completely uninstall Figma, then reinstall it from a third-party website</label>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <input type="checkbox">
+                    <label for="" class="text-sm text-slate-700">Switch to Windows operating system, as Figma doesn’t work properly on macOS.</label>
+                </div>
+                <div class="flex space-x-3 items-center">
+                    <input type="checkbox">
+                    <label for="" class="text-sm text-slate-700">Delete all the files in the 'Applications' folder to free up space and attempt the installation again.</label>
+                </div>
+               </form>
+            </div>
+            <div class="Empty-State w-full h-max flex flex-col items-center p-16 justify-center border space-y-2 rounded-md">
+                <div class="header flex w-full items-center justify-between">
+                    <h1 class="items-center text-slate-800 font-bold">
+                        Answer<span class="font-medium text-slate-700"> Choose single or multiple answers.</span>
+                    </h1>
+                    <button class="flex items-center space-x-5 font-medium text-sm p-3 text-slate-800 shadow border rounded-md border-slate-300">
+                        <p>Multiple Choice</p>
+                        <img src="/src/assets/icon/ddown.svg"
+                    </button>
+                </div>
+                <div class="form-wraper w-full items-center flex py-8">
+                    <form action="" class="flex w-full flex-col space-y-4">
+                        <div class="flex space-x-3 w-full">
+                            <input type="checkbox" >
+                            <input type="text" placeholder="Answer 1" class="border p-2 rounded-md w-full">
+                            <img src="/src/assets/icon/DotsSixVertical.svg"/>
+                            <img src="/src/assets/icon/Trash.svg"/>
+                        </div>
+                        <div class="flex space-x-3 w-full">
+                            <input type="checkbox" >
+                            <input type="text" placeholder="Answer 4" class="border p-2 rounded-md w-full">
+                            <img src="/src/assets/icon/DotsSixVertical.svg"/>
+                            <img src="/src/assets/icon/Trash.svg"/>
+                        </div>
+                        <div class="flex space-x-3 w-full">
+                            <input type="checkbox" >
+                            <input type="text" placeholder="Answer 3" class="border p-2 rounded-md w-full">
+                            <img src="/src/assets/icon/DotsSixVertical.svg"/>
+                            <img src="/src/assets/icon/Trash.svg"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Form Search -->
+             <div class="flex w-full items-stretch  ">
+                <input type="search" placeholder="Search Course" class="p-3 border rounded-l-md w-full"/>
+                <a href="" class="bg-primary rounded-r-md flex items-center p-4">
+                     <img src="/src/assets/icon/MagnifyingGlass.svg" class="h-4" alt="">
+                 </a>
+             </div>
+            <!-- Password-Req -->
+            <div class="flex flex-col space-y-4">
+             <div class="flex flex-col border w-full items-stretch p-3 px-5 rounded-md border-slate-300 ">
+                <label for="" class="text-primary font-bold">Password *</label>
+                <div class="flex">
+                    <input type="password" placeholder="" class="p-2 w-full"/>
+                    <a href="" class=" rounded-r-md flex items-center">
+                        <img src="/src/assets/icon/Eye.svg" class="h-6" alt="">
+                    </a>
+                </div>
+             </div>
+             <div class="flex space-x-10">
+                <div class="flex-col space-y-5">
+                    <div class="flex ">
+                        <img src="/src/assets/icon/Check.svg"
+                        <p class="text-sm px-4">8 characters minimum</p>
+                    </div>
+                    <div class="flex ">
+                        <img src="/src/assets/icon/Check.svg"
+                        <p class="text-sm px-4">use number</p>
+                    </div>
+                </div>
+                <div class="flex-col space-y-5">
+                    <div class="flex ">
+                        <img src="/src/assets/icon/Check.svg"
+                        <p class="text-sm px-4">8 characters minimum</p>
+                    </div>
+                    <div class="flex ">
+                        <img src="/src/assets/icon/Check.svg"
+                        <p class="text-sm px-4">use number</p>
+                    </div>
+                </div>
+
+             </div>
+            </div>
+
+            <!-- Publish Link -->
+            <div class="flex flex-col border space-y-8 w-full items-center p-5 px-5 rounded-md border-slate-300 ">
+                <div class="flex flex-col w-full items-start space-y-5">
+                    <div class="flex flex-col w-full items-stretch border rounded-md border-slate-300 shadow-md p-3 px-5">
+                    <label for="" class="text-black font-bold text-sm">Your Page Link *</label>
+                        <div class="flex">
+                            <input type="password" disabled placeholder="" class="p-3 w-full"/>
+                            <a href="" class=" rounded-r-md flex items-center">
+                                <img src="/src/assets/icon/CopySimple.svg" class="h-6" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="flex border text-slate-500 border-slate-500 p-2 px-5 rounded-md bg-transparent">Unpublish Course</button>
+                    </div>
+                <div class="flex flex-col w-full items-start space-y-5">
+                    <div class="flex flex-col w-full items-stretch border rounded-md border-slate-300 shadow-md p-3 px-5">
+                    <label for="" class="text-primary font-bold text-sm">Your Page Link *</label>
+                        <div class="flex">
+                            <input type="password" placeholder="" class="p-3 w-full"/>
+                            <a href="" class=" rounded-r-md flex items-center">
+                                <img src="/src/assets/icon/CopySimple.svg" class="h-6" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="flex border text-secondary border-secondary p-2 px-5 rounded-md bg-transparent">Unpublish Course</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-regist flex-col items-center justify-center h-max w-full">
+        <div class="head-form flex h-full w-full items-center justify-center border p-5 shadow-sm space-x-6">
+            <img src="/src/assets/logo/swc.svg" class="h-6"/>
+            <hr class=" border border-black h-8"/>
+            <img src="/src/assets/logo/logo.svg" class="h-9"/>
+            <img src="/src/assets/logo/swlai.svg" class="h-9"/>
+        </div>
+        <div class="form-regist flex flex-col  items-center w-full justify-center space-y-6 my-20">
+            <div class="head-form flex space-y-2 flex-col text-balance w-[480px]">
+                <h1 class="text-2xl font-bold">Create New Account</h1>
+                <p class="text-slate-500">Start your 30-day trial by completing the form. Enjoy all the features, and our team will help you maximize your experience.</p>
+            </div>
+            <div class="form flex flex-col space-y-8 items-center w-[480px]">
+                <form action="" class="flex flex-col w-full items-center space-y-5">
+                    <div class="flex flex-col border w-full items-stretch p-3 px-5 rounded-md border-slate-300 ">
+                        <label for="" class="text-primary font-bold">Full Name *</label>
+                        <div class="flex">
+                            <input type="text" placeholder="" class="p-2 w-full"/>
+                        </div>
+                     </div>
+                     <div class="flex flex-col border w-full items-stretch p-3 px-5 rounded-md border-slate-300 ">
+                        <label for="" class="text-primary font-bold">Email *</label>
+                        <div class="flex">
+                            <input type="email" placeholder="" class="p-2 w-full"/>
+                        </div>
+                     </div>
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex flex-col border w-full items-stretch p-3 px-5 rounded-md border-slate-300 ">
+                           <label for="" class="text-primary font-bold">Password *</label>
+                           <div class="flex">
+                               <input type="password" placeholder="" class="p-2 w-full"/>
+                               <a href="" class=" rounded-r-md flex items-center">
+                                   <img src="/src/assets/icon/Eye.svg" class="h-6" alt="">
+                               </a>
+                           </div>
+                        </div>
+                        <div class="flex space-x-10">
+                           <div class="flex-col space-y-5">
+                               <div class="flex ">
+                                   <img src="/src/assets/icon/Check.svg"
+                                   <p class="text-sm px-4">8 characters minimum</p>
+                               </div>
+                               <div class="flex ">
+                                   <img src="/src/assets/icon/Check.svg"
+                                   <p class="text-sm px-4">use number</p>
+                               </div>
+                           </div>
+                           <div class="flex-col space-y-5">
+                               <div class="flex ">
+                                   <img src="/src/assets/icon/Check.svg"
+                                   <p class="text-sm px-4">8 characters minimum</p>
+                               </div>
+                               <div class="flex ">
+                                   <img src="/src/assets/icon/Check.svg"
+                                   <p class="text-sm px-4">use number</p>
+                               </div>
+                           </div>
+           
+                        </div>
+                       </div>
+                       <button class="flex p-3 px-auto my-10 w-full justify-center shadow-sm text-white bg-primary rounded-md ">Create Account</button>
+                </form>
+                <h1 class="text-slate-500">or use</h1>
+                <div class="other-way-regist w-full flex">
+                    <button class="flex p-2 px-5 border w-full justify-center font-medium space-x-2 text-black shadow-sm bg-transparent rounded-md ">
+                        <img src="/src/assets/icon/google.svg" alt=""><p>Google</p>
+                    </button>
+                </div>
+                <div class="Login-Ref flex w-full items-center space-x-2">
+                    <h1 class="text-slate-500">Already have an Account?</h1>
+                    <a href="#okegas" class="text-primary">Login</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
